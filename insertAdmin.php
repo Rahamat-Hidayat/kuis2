@@ -17,7 +17,7 @@
     ('admin', '123');
 
     if(mysqli_query($connect, $query)) {
-
+        echo "Data baru berhasil ditambahkan!";
     } else {
         echo "Data baru gagal ditambahkan! <br>". mysqli_error($connect);
     }
